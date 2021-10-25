@@ -16,3 +16,4 @@ const bici4 = {
     peso: 32
 }
 
+const bicycles = [bici1, bici2, bici3, bici4];
