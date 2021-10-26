@@ -64,3 +64,12 @@ const squadre = [
 
 console.log(squadre);
 
+const randomNumber = Math.floor(Math.random() * 21);
+
+for (let i = 0; i < squadre.length; i++) {
+    const falliNumber = Math.floor(Math.random() * 21);
+    const puntiNumber = Math.floor(Math.random() * 50);
+    squadre[i].falli_subiti = falliNumber;
+    squadre[i].punti_fatti = puntiNumber;
+
+}
